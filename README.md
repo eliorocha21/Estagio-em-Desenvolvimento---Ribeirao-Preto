@@ -19,7 +19,7 @@ Desafio técnico da empresa Target Sistemas referente a uma vaga de estágio em 
 
 # Obstáculos vencidos
 
-Alguns desafios eram fáceis de resolver utilizando a lógica, porém um pouco mais complicados de serem transferidos para a linguagem de programação. Necessitei me esforçar um pouco mais e ainda preciso continuar a estudar para poder resolver as atividades da melhor forma possível.
+Alguns desafios eram fáceis de resolver utilizando a lógica, porém um pouco mais complicados de serem transferidos para a linguagem de programação. Necessitei me esforçar um pouco mais e ainda preciso continuar a estudar para poder resolver as atividades da melhor forma possível. Agradeço pela oportunidade de aprendizagem por meio dos desafios, cada passo é importante na tão árdua caminhada de aprender a desenvolver!
 
 ```bash
 
