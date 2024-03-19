@@ -21,34 +21,34 @@ package Desafio;
 import java.util.Random;
 
 public class desafio04 {
-        public static void main(String[] args) {
-            boolean[] lâmpadas = new boolean[3];
-            boolean[] interruptores = new boolean[3];
-            Random random = new Random();
+    public static void main(String[] args) {
+        boolean[] lâmpadas = new boolean[3];
+        boolean[] interruptores = new boolean[3];
+        Random random = new Random();
 
-            // Ligar e desligar os interruptores aleatoriamente
-            for (int i = 0; i < interruptores.length; i++) {
-                interruptores[i] = random.nextBoolean();
-            }
+        // Ligar e desligar os interruptores aleatoriamente
+        for (int i = 0; i < interruptores.length; i++) {
+            interruptores[i] = random.nextBoolean();
+        }
 
-            // Simular a primeira ida até a sala das lâmpadas
-            for (int i = 0; i < interruptores.length; i++) {
-                if (interruptores[i]) {
-                    lâmpadas[i] = !lâmpadas[i]; // Inverter o estado da lâmpada
-                }
-            }
-
-            // Simular a segunda ida até a sala das lâmpadas
-            for (int i = 0; i < interruptores.length; i++) {
-                if (interruptores[i]) {
-                    lâmpadas[i] = !lâmpadas[i]; // Inverter o estado da lâmpada
-                }
-            }
-
-            // Imprimir o resultado
-            for (int i = 0; i < lâmpadas.length; i++) {
-                System.out.println("A lâmpada " + (i+1) + " está " + (lâmpadas[i] ? "ligada" : "desligada"));
-                System.out.println("O interruptor " + (i+1) + " está " + (interruptores[i] ? "ligado" : "desligado"));
+        // Simular a primeira ida até a sala das lâmpadas
+        for (int i = 0; i < interruptores.length; i++) {
+            if (interruptores[i]) {
+                lâmpadas[i] = !lâmpadas[i]; // Inverter o estado da lâmpada
             }
         }
+
+        // Simular a segunda ida até a sala das lâmpadas
+        for (int i = 0; i < interruptores.length; i++) {
+            if (interruptores[i]) {
+                lâmpadas[i] = !lâmpadas[i]; // Inverter o estado da lâmpada
+            }
+        }
+
+        // Imprimir o resultado
+        for (int i = 0; i < lâmpadas.length; i++) {
+            System.out.println("A lâmpada " + (i + 1) + " está " + (lâmpadas[i] ? "ligada" : "desligada"));
+            System.out.println("O interruptor " + (i + 1) + " está " + (interruptores[i] ? "ligado" : "desligado"));
+        }
     }
+}
