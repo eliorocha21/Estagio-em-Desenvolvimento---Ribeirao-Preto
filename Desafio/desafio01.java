@@ -23,5 +23,8 @@ public class desafio01 {
         }
 
         System.out.println("O valor da variável Soma é = " + soma);
+        /* O loop while executa enquanto o valor de K(0) for menor que INDICE,
+        que é 13. Dentro do loop, a cada iteração, o valor de K é incrementado em 1 e
+        adicionado ao valor atual de SOMA, que ao final será 91.*/
     }
 }
